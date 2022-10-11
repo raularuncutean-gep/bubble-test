@@ -1,0 +1,230 @@
+[
+  {
+    "clientId": "123",
+    "clientName": "123",
+    "bpcCode": 111,
+    "bpcName": "test"
+  },
+  {
+    "clientId": "222",
+    "clientName": "222",
+    "bpcCode": 333,
+    "bpcName": "sample"
+  },
+  {
+    "clientId": "ANADARKO",
+    "clientName": "ANADARKO",
+    "bpcCode": 70021731,
+    "bpcName": "ANADARKO"
+  },
+  {
+    "clientId": "APEXTOOLGROUP",
+    "clientName": "APEXTOOLGROUP",
+    "bpcCode": 443515,
+    "bpcName": "APEXTOOLGROUP"
+  },
+  {
+    "clientId": "BLACKHILLS",
+    "clientName": "BLACKHILLS",
+    "bpcCode": 190877,
+    "bpcName": "BLACKHILLS"
+  },
+  {
+    "clientId": "BNCONFIG",
+    "clientName": "BNCONFIG",
+    "bpcCode": 70021933,
+    "bpcName": "BNCONFIG"
+  },
+  {
+    "clientId": "Bank Of America",
+    "clientName": "Bank Of America",
+    "bpcCode": 197250,
+    "bpcName": "BOFA"
+  },
+  {
+    "clientId": "CARGILL",
+    "clientName": "CARGILL",
+    "bpcCode": 70021961,
+    "bpcName": "CARGILLSC"
+  },
+  {
+    "clientId": "CATALOG2",
+    "clientName": "CATALOG2",
+    "bpcCode": 102,
+    "bpcName": "CATALOG2"
+  },
+  {
+    "clientId": "CHEVRON",
+    "clientName": "CHEVRON",
+    "bpcCode": 70021704,
+    "bpcName": "CHEVRON"
+  },
+  {
+    "clientId": "CITI",
+    "clientName": "CITI",
+    "bpcCode": 501,
+    "bpcName": "CITI"
+  },
+  {
+    "clientId": "CITI",
+    "clientName": "CITI",
+    "bpcCode": 123,
+    "bpcName": "CITINEW"
+  },
+  {
+    "clientId": "CLICK",
+    "clientName": "CLICK",
+    "bpcCode": 70021939,
+    "bpcName": "CLICK"
+  },
+  {
+    "clientId": "COLORADOSPRINGSUTILITIES",
+    "clientName": "COLORADOSPRINGSUTILITIES",
+    "bpcCode": 70021942,
+    "bpcName": "COLORADOSPRINGSUTILITIES"
+  },
+  {
+    "clientId": "DANONE",
+    "clientName": "DANONE",
+    "bpcCode": 70021918,
+    "bpcName": "DANONE"
+  },
+  {
+    "clientId": "DEMO",
+    "clientName": "DEMO",
+    "bpcCode": 149459,
+    "bpcName": "DEMO"
+  },
+  {
+    "clientId": "DEVELOPERDOMAIN",
+    "clientName": "DEVELOPERDOMAIN",
+    "bpcCode": 20210511,
+    "bpcName": "DEVELOPERDOMAIN"
+  },
+  {
+    "clientId": "DUPONT",
+    "clientName": "DUPONT",
+    "bpcCode": 190935,
+    "bpcName": "DUPONT"
+  },
+  {
+    "clientId": "ECOLAB",
+    "clientName": "ECOLAB",
+    "bpcCode": 538731,
+    "bpcName": "ECOLAB"
+  },
+  {
+    "clientId": "EDGEDEMO",
+    "clientName": "EDGEDEMO",
+    "bpcCode": 999,
+    "bpcName": "EDGEDEMO"
+  },
+  {
+    "clientId": "FLOWERSFOODS",
+    "clientName": "FLOWERSFOODS",
+    "bpcCode": 70021805,
+    "bpcName": "FLOWERSFOODS"
+  },
+  {
+    "clientId": "JJ",
+    "clientName": "JJ",
+    "bpcCode": 0,
+    "bpcName": "JJ"
+  },
+  {
+    "clientId": "KELLOGG",
+    "clientName": "KELLOGG",
+    "bpcCode": 4763,
+    "bpcName": "KELLOGG"
+  },
+  {
+    "clientId": "PERTAMINA",
+    "clientName": "PERTAMINA",
+    "bpcCode": 70021862,
+    "bpcName": "PERTAMINA"
+  },
+  {
+    "clientId": "PETRONAS",
+    "clientName": "PETRONAS",
+    "bpcCode": 70021790,
+    "bpcName": "PETRONAS"
+  },
+  {
+    "clientId": "PGE",
+    "clientName": "PGE",
+    "bpcCode": 70021894,
+    "bpcName": "PGE"
+  },
+  {
+    "clientId": "PRICEBOOK",
+    "clientName": "PRICEBOOK",
+    "bpcCode": 101,
+    "bpcName": "PRICEBOOK"
+  },
+  {
+    "clientId": "ROCHE",
+    "clientName": "ROCHE",
+    "bpcCode": 70021868,
+    "bpcName": "ROCHE"
+  },
+  {
+    "clientId": "ROCHE",
+    "clientName": "ROCHE",
+    "bpcCode": 70021908,
+    "bpcName": "ROCHESC"
+  },
+  {
+    "clientId": "SALESDEMOUS",
+    "clientName": "SALESDEMOUS",
+    "bpcCode": 300723,
+    "bpcName": "SALESDEMOUS"
+  },
+  {
+    "clientId": "SAMPLE11",
+    "clientName": "SAMPLE11",
+    "bpcCode": 112211,
+    "bpcName": "SAMPLE11"
+  },
+  {
+    "clientId": "SIGNIFY",
+    "clientName": "SIGNIFY",
+    "bpcCode": 70021788,
+    "bpcName": "SIGNIFY"
+  },
+  {
+    "clientId": "STOCKHOLMEXERGI",
+    "clientName": "STOCKHOLMEXERGI",
+    "bpcCode": 70021983,
+    "bpcName": "STOCKHOLMEXERGI"
+  },
+  {
+    "clientId": "TESCOBANK",
+    "clientName": "TESCOBANK",
+    "bpcCode": 70021880,
+    "bpcName": "TESCOBANK"
+  },
+  {
+    "clientId": "UAT_OGE",
+    "clientName": "UAT_OGE",
+    "bpcCode": 149197,
+    "bpcName": "UAT_OGE"
+  },
+  {
+    "clientId": "VISTRAENERGY",
+    "clientName": "VISTRAENERGY",
+    "bpcCode": 70021995,
+    "bpcName": "VISTRAENERGY"
+  },
+  {
+    "clientId": "VONAGE",
+    "clientName": "VONAGE",
+    "bpcCode": 507302,
+    "bpcName": "VONAGE"
+  },
+  {
+    "clientId": "XYLEM",
+    "clientName": "XYLEM",
+    "bpcCode": 196950,
+    "bpcName": "XYLEM"
+  }
+]
