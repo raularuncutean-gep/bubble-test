@@ -7,7 +7,7 @@ import { ClientService } from '../client.service';
 @Component({
   selector: 'app-bubble-chart',
   templateUrl: './bubble-chart.component.html',
-  styleUrls: ['./bubble-chart.component.css'],
+  styleUrls: ['./bubble-chart.component.scss'],
 })
 export class BubbleChartComponent {
   @Input() width: number = 0;
@@ -25,10 +25,16 @@ export class BubbleChartComponent {
       let svg = d3
         .select('#chart')
         .append('svg')
+        //  .attr('viewBox','0 0 960 600')
+        .attr('preserveAspectRatio', 'xMidYMid meet')
         .attr('width', this.width)
         .attr('height', this.height)
-        .attr('class', 'bubble');
-
+        .attr('class', 'bubble')
+        .on('resize', () => {
+          d3.select('#chart')
+            .attr('width', this.width)
+            .attr('height', this.height);
+        });
       let dataSet = {
         children: [
           {

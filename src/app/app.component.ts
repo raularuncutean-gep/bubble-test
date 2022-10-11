@@ -6,7 +6,7 @@ import { ClientService } from './client.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
   title = 'bubble-test';
@@ -15,12 +15,13 @@ export class AppComponent {
   errorMessage: string = '';
   str = 'abcdefghijklmnopqrstuvwxyz'.split('');
   sub!: Subscription;
-  width: number = 0;
-  marginRight: number = 0;
+  widthSideBar: number = 0;
+  widthSideBar2: number = 0;
 
+  widthMain: number = 100;
 
-  widthBubble:number=600;
-  heightBubble:number=600;  
+  widthBubble: number = 900;
+  heightBubble: number = 600;
 
   constructor(private clientService: ClientService) {}
 
@@ -47,7 +48,7 @@ export class AppComponent {
               },
             ];
           }
-          this.clientsFilter = this.clients.slice(0,15);
+          this.clientsFilter = this.clients.slice(0, 15);
         });
       },
       error: (err) => (this.errorMessage = err),
@@ -64,9 +65,14 @@ export class AppComponent {
 
   test(client: IClient) {
     console.log(client);
-    this.width = 700;
-    this.marginRight=900;
-    this.widthBubble=700;
-    this.heightBubble=600;
+    this.widthSideBar = 66;
+    this.widthMain = 33;
+    this.widthBubble = 400;
+    this.heightBubble = 400;
+  }
+
+  openSideNav() {
+    console.log('OpenSideNav');
+    this.widthSideBar2=32;
   }
 }
