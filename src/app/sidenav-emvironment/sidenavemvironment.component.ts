@@ -15,8 +15,5 @@ export class SideNavEmvironmentComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  test(){
-    this.right=33; 
-    this.width=33;
-  }
+ 
 }
