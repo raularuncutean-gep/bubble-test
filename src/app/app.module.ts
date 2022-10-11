@@ -4,10 +4,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 
 import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
-import { Sidenav2Component } from './sidenav2/sidenav2.component';
+import { SideNavDomainComponent } from './sidenav-domain/sidenavdomain.component';
+import { SideNavEmvironmentComponent } from './sidenav-emvironment/sidenavemvironment.component';
 @NgModule({
-  declarations: [AppComponent, BubbleChartComponent, SidenavComponent, Sidenav2Component],
+  declarations: [
+    AppComponent,
+    BubbleChartComponent,
+    SideNavDomainComponent,
+    SideNavEmvironmentComponent,
+  ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,15 +1,15 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
-  selector: 'app-sidenav2',
-  templateUrl: './sidenav2.component.html',
-  styleUrls: ['./sidenav2.component.scss']
+  selector: 'app-sidenavemvironment',
+  templateUrl: './sidenavemvironment.component.html',
+  styleUrls: ['./sidenavemvironment.component.scss']
 })
-export class Sidenav2Component implements OnInit {
+export class SideNavEmvironmentComponent implements OnInit {
 
   @Input() width: number = 0;
 
-  @Output() sideNavaOpen =new EventEmitter();
+ 
   right = 0;
   constructor() {}
 

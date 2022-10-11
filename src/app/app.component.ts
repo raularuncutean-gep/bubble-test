@@ -20,8 +20,8 @@ export class AppComponent {
 
   widthMain: number = 100;
 
-  widthBubble: number = 900;
-  heightBubble: number = 600;
+  widthBubble: number = 800;
+  heightBubble: number = 500;
 
   constructor(private clientService: ClientService) {}
 
@@ -48,7 +48,7 @@ export class AppComponent {
               },
             ];
           }
-          this.clientsFilter = this.clients.slice(0, 15);
+          this.clientsFilter = this.clients.slice(0, 20);
         });
       },
       error: (err) => (this.errorMessage = err),
@@ -63,16 +63,15 @@ export class AppComponent {
     console.log(this.clientsFilter);
   }
 
-  test(client: IClient) {
-    console.log(client);
+  openSideNavDomain(client: IClient) {
     this.widthSideBar = 66;
     this.widthMain = 33;
     this.widthBubble = 400;
     this.heightBubble = 400;
+    this.clientsFilter = this.clientsFilter.slice(0, 10);
   }
 
-  openSideNav() {
-    console.log('OpenSideNav');
+  openSideNavEnvironment() {
     this.widthSideBar2=32;
   }
 }
