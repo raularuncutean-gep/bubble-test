@@ -4,8 +4,8 @@
     {{ litera }}<span *ngIf="!last">·</span>
   </a>
   <app-bubble-chart
-    [width]="600"
-    [height]="400"
+    [width]="widthBubble"
+    [height]="heightBubble"
     [clientData]="clientsFilter"
     (selectItem)="test($event)"
   ></app-bubble-chart>

@@ -45,9 +45,9 @@ export class BubbleChartComponent {
       defs
         .append('radialGradient')
         .attr('id', 'sun-gradient')
-        .attr('cx', '20%')
-        .attr('cy', '20%')
-        .attr('r', '20%')
+        .attr('cx', '50%')
+        .attr('cy', '50%')
+        .attr('r', '50%')
         .selectAll('stop')
         .data([
           { offset: '0%', color: '#ffffff' },
@@ -89,7 +89,7 @@ export class BubbleChartComponent {
             clientName: d.srcElement.__data__.data.clientName,
             bpcCode: d.srcElement.__data__.data.bpcCode,
             bpcName: d.srcElement.__data__.data.bpcName,
-            img: d.srcElement.__data__.data.img,
+            img: d.srcElement.__data__.data.image,
           });
         });
 

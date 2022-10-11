@@ -17,6 +17,11 @@ export class AppComponent {
   sub!: Subscription;
   width: number = 0;
   marginRight: number = 0;
+
+
+  widthBubble:number=600;
+  heightBubble:number=600;  
+
   constructor(private clientService: ClientService) {}
 
   ngOnInit() {
@@ -42,7 +47,7 @@ export class AppComponent {
               },
             ];
           }
-          this.clientsFilter = this.clients;
+          this.clientsFilter = this.clients.slice(0,15);
         });
       },
       error: (err) => (this.errorMessage = err),
@@ -60,6 +65,8 @@ export class AppComponent {
   test(client: IClient) {
     console.log(client);
     this.width = 700;
-    this.marginRight=700;
+    this.marginRight=900;
+    this.widthBubble=700;
+    this.heightBubble=600;
   }
 }

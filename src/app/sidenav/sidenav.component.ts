@@ -7,10 +7,13 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class SidenavComponent implements OnInit {
   @Input() width: number = 0;
-  
+  right = 0;
   constructor() {}
 
   ngOnInit(): void {}
 
-
+  test(){
+    this.right=400; 
+    this.width=400;
+  }
 }
