@@ -1,0 +1,42 @@
+.card {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #e6e5e5;
+  transition: 0.3s;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.text {
+  width: 60px;
+  height: 15px;
+  margin-top: 5px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  color: #3b578c;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebeef3;
+}
+
+.buttonE {
+  margin: 20px 0 10px 0;
+  height: 40px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: white;
+  background-color: #3b578c;
+  border: none;
+  border-radius: 5px;
+}
+
+.buttonE:hover {
+  background-color: #253e6b;
+}

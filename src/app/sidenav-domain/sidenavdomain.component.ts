@@ -11,7 +11,8 @@ export class SideNavDomainComponent implements OnInit {
 
   right = 0;
   constructor() {}
-
+    
+  testText:string="Bofa1";
   ngOnInit(): void {}
 
   test() {

@@ -7,5 +7,17 @@
   <h4 style="margin-left: 15px; font-family: Arial, Helvetica, sans-serif">
     Domain
   </h4>
-  <button (click)="test()">Button</button>
+
+  <div class="container">
+    <app-domain-button
+      (click)="test()"
+      class="button-domain"
+      [textButton]="testText"
+    ></app-domain-button>
+    <app-domain-button
+      (click)="test()"
+      class="button-domain"
+      [textButton]="testText"
+    ></app-domain-button>
+  </div>
 </div>

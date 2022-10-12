@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 
 import { BubbleChartComponent } from './bubble-chart/bubble-chart.component';
 import { SideNavDomainComponent } from './sidenav-domain/sidenavdomain.component';
-import { SideNavEmvironmentComponent } from './sidenav-emvironment/sidenavemvironment.component';
+import { SideNavEnvironmentComponent } from './sidenav-environment/sidenavenvironment.component';
+import { DomainButtonComponent } from './domain-button/domain-button.component';
+import { EnvironmentItemComponent } from './environment-item/environment-item.component';
 @NgModule({
   declarations: [
     AppComponent,
     BubbleChartComponent,
     SideNavDomainComponent,
-    SideNavEmvironmentComponent,
+    SideNavEnvironmentComponent,
+    DomainButtonComponent,
+    EnvironmentItemComponent,
   ],
   imports: [BrowserModule, HttpClientModule],
   providers: [],

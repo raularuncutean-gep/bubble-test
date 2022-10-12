@@ -3,7 +3,7 @@
   (sideNavaOpen)="openSideNavEnvironment()"
 >
 </app-sidenavdomain>
-<app-sidenavemvironment [width]="widthSideBar2"></app-sidenavemvironment>
+<app-sidenavenvironment [width]="widthSideBar2"></app-sidenavenvironment>
 <div class="main" style="text-align: center" [style.width.%]="widthMain">
   <a *ngFor="let litera of str; let last = last" (click)="filter(litera)">
     {{ litera }}<span *ngIf="!last">·</span>
